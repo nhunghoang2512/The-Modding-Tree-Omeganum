@@ -42,7 +42,7 @@ function getPointGen() {
 		return new ExpantaNum(1)
 
 	let gain = new ExpantaNum(0)
-	if (hasUpgrade("en", 12)) gain = gain.add(1)
+	if (hasUpgrade("p", 11)) gain = gain.add(1)
 	return gain
 }
 
