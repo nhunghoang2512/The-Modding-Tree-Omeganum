@@ -39,7 +39,7 @@ function canGenPoints(){
 // Calculate points/sec!
 function getPointGen() {
 	if(!canGenPoints())
-		return new ExpantaNum(0)
+		return new ExpantaNum(1)
 
 	let gain = new ExpantaNum(1)
 	return gain
