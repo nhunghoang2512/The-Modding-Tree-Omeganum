@@ -26,7 +26,9 @@ addLayer("p", {
     ],
 	upgrades: {
         11: {
-
+    		name: "Make this whatever you want!",
+   			description: "Double your point gain.",
+    		cost: new ExpantaNum(1),
         },
     },
     layerShown(){return true}
