@@ -41,7 +41,7 @@ function getPointGen() {
 	if(!canGenPoints())
 		return new ExpantaNum(1)
 
-	let gain = new ExpantaNum(1)
+	let gain = new ExpantaNum(0)
 	return gain
 }
 
